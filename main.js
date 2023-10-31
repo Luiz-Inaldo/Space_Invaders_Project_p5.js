@@ -85,6 +85,9 @@ function draw() {
     displayBoss();
     gameOver();
     changeLevel();
+    if (keyIsDown(27)){
+      screen = 'pause_menu';
+    }
   }
   
   // paused game
