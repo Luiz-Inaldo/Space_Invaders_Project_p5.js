@@ -1,4 +1,4 @@
-let screen = 'main menu';
+let screen = 'how_to_play';
 let menuSelection = 1;
 let soundPrincipal = 'on';
 

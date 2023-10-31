@@ -63,7 +63,7 @@ function textMainMenu(){
   
     textSize(30);
     noStroke();
-    text('options', 345, 650);
+    text('how to play', 345, 650);
   
     // about creator
     textSize(20);
@@ -74,7 +74,7 @@ class ChooseButtonMain{
   constructor(){
     this.xCircle1 = 280
     this.yCircle1 = 593
-    this.xCircle2 = 270
+    this.xCircle2 = 240
     this.yCircle2 = 643
     this.diameter = 15
   }
